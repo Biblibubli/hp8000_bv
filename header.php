@@ -17,7 +17,7 @@
     <header>
         <div class="topnav">
             <a class="active" href="index.php">Home</a>
-            <a href="#news">Games</a>
+            <a href="games.php">Games</a>
             <?php
                 if (isset($_SESSION["userusername"])) {
                     echo "<a href='profile.php'>Profile page</a>";

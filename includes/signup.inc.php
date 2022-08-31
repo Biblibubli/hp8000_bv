@@ -8,9 +8,9 @@ if (isset($_POST["submit"])){
     $usersNickname = $_POST["usersNickname"];
 
     require_once 'dbh.inc.php';
-    echo "returned to signupincphp from dbh";
+
     require_once 'functions.inc.php';
-    echo "returned to signupincphp from functions";   
+  
     if (emptyInputSignup($username, $password, $passwordrepeat, $usersNickname) !== false) {
         echo "1";
         header("location: ../signup.php?error=emptyinput");
@@ -50,9 +50,9 @@ if (isset($_POST["submit"])){
     }
 
     
-    echo "reached";
+
     createUser($conn, $username, $password, $usersNickname);
-    echo "done";
+
 }
 else {
     header("location: ../signup.php");

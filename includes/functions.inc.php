@@ -102,7 +102,7 @@ function usernameExist($conn, $username) {
 
 
 function createUser($conn, $username, $password,$usersNickname) {
-    echo "start";
+
     $sql = "INSERT INTO users (usersUsername, usersPwd, usersNickname) VALUES (?,?,?);";
     $stmt = mysqli_stmt_init($conn);
     if (!mysqli_stmt_prepare($stmt, $sql)) {
@@ -117,10 +117,10 @@ function createUser($conn, $username, $password,$usersNickname) {
     mysqli_stmt_execute($stmt);
     mysqli_stmt_close($stmt);
 
-    echo "usermade";
+
 
     header("location: ../signup.php?error=noerror");
-    echo "redirected";
+
     exit();
 }
 
@@ -144,20 +144,15 @@ function loginUsers($conn, $username, $pwd) {
     $usernameExist = usernameExist($conn, $username);
 
     if ($usernameExist === false) {
-        header("location: ../login.php?error=wrongloginn");
+        header("location: ../login.php?error=wronglogin");
         exit();
     }
 
     $pwdHashed = $usernameExist['usersPwd'];
     $checkPwd = password_verify($pwd, $pwdHashed);
 
-    echo $pwd;
-    echo $pwdHashed;
-
-
-
     if($checkPwd === false) {
-        header("location: ../login.php?error=wronglogin1");
+        header("location: ../login.php?error=wronglogin");
         exit();
     }
     else if ($checkPwd === true) {

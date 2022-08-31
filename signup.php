@@ -37,11 +37,11 @@
             }
 
             if ($_GET["error"] == "stmtfailed"){
-                echo "Oops, something is wrong. Try again or contact admin</P>";
+                echo "<P>Oops, something is wrong. Try again or contact admin</P>";
             }
 
             if ($_GET["error"] == "noerror"){
-                echo "Congradulations!</P>";
+                echo "<P>Congradulations!</P>";
             }
         }
     ?>

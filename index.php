@@ -6,7 +6,7 @@
 
 <?php
     if (isset($_SESSION["userusername"])) {
-        echo "<p>Welcome back, " . $_SESSION["userusername"] . "<.p>";
+        echo "<p>Welcome back, " . $_SESSION["userusername"] . "</p>";
 
     }
 

@@ -9,16 +9,15 @@ if(isset($_POST["submit"])) {
 
     require_once 'functions.inc.php';
 
-    echo "returned";
+
 
     if (emptyInputLogin($username, $pwd) !== false) {
         header("location: ../login.php?error=emptyinput");
 
         exit();
     }
-    echo "1";
+
     loginUsers($conn, $username, $pwd) ;
-    echo "2";
 
 }
 else {
