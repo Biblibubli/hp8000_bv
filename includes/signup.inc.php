@@ -25,11 +25,11 @@ if (isset($_POST["submit"])){
     }
 
 
-    if (invalidUsersNickname($usersNickname) !== false) {
-        header("location: ../signup.php?error=invalidusersNickname");
+    // if (invalidUsersNickname($usersNickname) !== false) {
+    //     header("location: ../signup.php?error=invalidusersNickname");
 
-        exit();
-    }
+    //     exit();
+    // }
 
     if (pwdMismatch($password, $passwordrepeat) !== false) {
         header("location: ../signup.php?error=pwdnotmatch");
