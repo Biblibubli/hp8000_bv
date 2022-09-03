@@ -61,7 +61,7 @@
   <?php
       if (isset($_SESSION["userusername"])) {
           echo '<li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="profile.php">Profile</a></li>';
-          echo '<li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="logout.php">Logout</a></li>';
+          echo '<li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="includes/logout.inc.php">Logout</a></li>';
       }
       else {
         echo '<li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="login.php" style="padding: 10px 0px;">Login</a></li>';
@@ -83,7 +83,7 @@
     <?php
         if (isset($_SESSION["userusername"])) {
             echo '<li class="u-nav-item"><a class="u-button-style u-nav-link" href="profile.php">Profile</a></li>';
-            echo '<li class="u-nav-item"><a class="u-button-style u-nav-link" href="logout.php">Logout</a></li>';
+            echo '<li class="u-nav-item"><a class="u-button-style u-nav-link" href="includes/logout.inc.php">Logout</a></li>';
         }
         else {
           echo '<li class="u-nav-item"><a class="u-button-style u-nav-link" href="login.php">Login</a></li>';
