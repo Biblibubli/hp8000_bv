@@ -45,7 +45,7 @@
                 <input type="text" name="gameUserNickname" placeholder="Nickname for this game..."><br>
                 <button type="submit" name="submit">Sign Up</button><br>
             </form>
-        
+
             <?php
                 if (isset($_GET["error"])){
                     if ($_GET["error"] == "emptyinput"){
@@ -56,7 +56,7 @@
                         echo "<P>Choose a proper nickname, try again!</P>";
                     }
 
-                
+
                     if ($_GET["error"] == "UsersNickname"){
                         echo "<P>Too bad, nickname already taken, choose something else!</P>";
                     }
@@ -72,7 +72,7 @@
                     if ($_GET["error"] == "alreadyRegistered"){
                         echo "<P>You have already registered!</P>";
                     }
-                    
+
 
                     if ($_GET["error"] == "noerror"){
                         echo "<P>Congradulations, game registered!</P>";
