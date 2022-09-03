@@ -80,6 +80,20 @@
                 }
             ?>
         </section>
+
+        <h2>Registered Players</h2>
+        <?php
+            $sql = "SELECT * FROM gameRegister;";
+            $result = mysqli_query($conn, $sql);
+            $resultCheck = mysqli_num_rows($result);
+
+            if ($resultCheck > 0) {
+                while ($row = mysqli_fetch_assoc($result)) {
+                    echo $row[gameUserNickname] . "<br>";
+                }
+            }
+        ?>
+
     </body>
 </html>
 
