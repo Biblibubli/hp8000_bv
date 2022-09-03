@@ -35,11 +35,11 @@ if (isset($_POST["submit"])){
     }
 
 
-    if (invalidUsersNickname($gameUserNickname) !== false) {
-        header("location: ../games.php?error=invalidusersNickname");
+    // if (invalidUsersNickname($gameUserNickname) !== false) {
+    //     header("location: ../games.php?error=invalidusersNickname");
 
-        exit();
-    }
+    //     exit();
+    // }
 
     if (alreadyRegistered($conn, $userid) !== false) {
         header("location: ../games.php?error=alreadyRegistered");
