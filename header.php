@@ -40,7 +40,7 @@
     <body data-home-page="Home.html" data-home-page-title="Home" class="u-body u-xl-mode" data-lang="en"><header class="u-clearfix u-header u-header" id="sec-1589"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
           <!-- logo -->
           <a href='/images/bv_logo.jpg' class="u-image u-image-1">
-            <img src="/images/bv_logo.jpg" class="u-image u-image-1" style="width:80px;height:80px;">
+            <img src="/images/bv_logo.jpg" class="u-image u-image-1" style="height:70px;">
           </a>
           <!-- Navigation Bar -->
           <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1">
