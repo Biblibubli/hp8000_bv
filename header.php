@@ -10,19 +10,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="bv.css" type="text/css" />
+    <link rel="stylesheet" href="css/bv.css" type="text/css" />
 </head>
 <body>
 
-  <html style="font-size: 16px;" lang="en"><head>
+  <html style="font-size: 16px;" lang="en">
+  <head>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta charset="utf-8">
       <meta name="keywords" content="About CCBVA">
       <meta name="description" content="">
       <title>Home</title>
       <link rel="stylesheet" href="bv.css" media="screen">
-      <script class="u-script" type="text/javascript" src="jquery.js" "="" defer=""></script>
-      <script class="u-script" type="text/javascript" src="bv.js" "="" defer=""></script>
+      <script class="u-script" type="text/javascript" src="css/jquery.js" "="" defer=""></script>
+      <script class="u-script" type="text/javascript" src="css/bv.js" "="" defer=""></script>
       <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
       <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Oswald:200,300,400,500,600,700">
 
@@ -31,8 +32,7 @@
   		"@context": "http://schema.org",
   		"@type": "Organization",
   		"name": "",
-  		"logo": "images/bv-logo.jpg"
-  }</script>
+  		"logo": "images/bv-logo.jpg"}</script>
       <meta name="theme-color" content="#478ac9">
       <meta property="og:title" content="Home">
       <meta property="og:type" content="website">
@@ -40,7 +40,7 @@
     <body data-home-page="Home.html" data-home-page-title="Home" class="u-body u-xl-mode" data-lang="en"><header class="u-clearfix u-header u-header" id="sec-1589"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
           <!-- logo -->
           <a href='/images/bv_logo.jpg' class="u-image u-image-1">
-            <img src="/images/bv_logo.jpg" class="u-image u-image-1">
+            <img src="/images/bv_logo.jpg" class="u-image u-image-1" style="width:80px;height:80px;">
           </a>
           <!-- Navigation Bar -->
           <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1">
