@@ -36,7 +36,7 @@
       <meta property="og:title" content="Home">
       <meta property="og:type" content="website">
     </head>
-    <body data-home-page="index.php" data-home-page-title="Home" class="u-body u-xl-mode" data-lang="en"><header class="u-clearfix u-header u-header" id="sec-1589"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+    <body data-home-page-title="Home" class="u-body u-xl-mode" data-lang="en"><header class="u-clearfix u-header u-header" id="sec-1589"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
           <!-- logo -->
           <a >
             <img src="/images/bv_logo.jpg" class="u-image u-image-1" style="height:60px;">
@@ -52,7 +52,7 @@
             <div class="u-custom-menu u-nav-container">
               <ul class="u-nav u-spacing-30 u-unstyled u-nav-1">
   <li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="index.php" style="padding: 10px 0px;">Home</a></li>
-  <li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="#" style="padding: 10px 0px;">About CCBVA</a></li>
+  <!-- <li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="#" style="padding: 10px 0px;">About CCBVA</a></li> -->
 <!-- Add link to events when function added -->
   <!-- <li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="#" style="padding: 10px 0px;">Events</a></li> -->
   <li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="games.php" style="padding: 10px 0px;">games</a></li>
@@ -73,8 +73,8 @@
               <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
                 <div class="u-inner-container-layout u-sidenav-overflow">
                   <div class="u-menu-close"></div>
-                  <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="index.html">Home</a></li>
-    <li class="u-nav-item"><a class="u-button-style u-nav-link" href="#">About CCBVA</a></li>
+                  <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="index.php">Home</a></li>
+    <!-- <li class="u-nav-item"><a class="u-button-style u-nav-link" href="#">About CCBVA</a></li> -->
     <!-- Add link to events when function added -->
     <!-- </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="#">Events</a> -->
     <li class="u-nav-item"><a class="u-button-style u-nav-link" href="games.php">Games</a></li>
