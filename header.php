@@ -31,7 +31,7 @@
   		"@context": "http://schema.org",
   		"@type": "Organization",
   		"name": "",
-  		"logo": "images/bv-logo.jpg"}</script>
+  		"logo": "images/bv_logo.png"}</script>
       <meta name="theme-color" content="#478ac9">
       <meta property="og:title" content="Home">
       <meta property="og:type" content="website">
@@ -39,7 +39,7 @@
     <body data-home-page-title="Home" class="u-body u-xl-mode" data-lang="en"><header class="u-clearfix u-header u-header" id="sec-1589"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
           <!-- logo -->
           <a >
-            <img src="/images/bv_logo.jpg" class="u-image u-image-1" style="height:60px;">
+            <img src="/images/bv_logo.png" class="u-image u-image-1" style="height:60px;">
           </a>
           <!-- Navigation Bar -->
           <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1">
