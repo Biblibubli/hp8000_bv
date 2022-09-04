@@ -15,8 +15,45 @@
 <section class="u-clearfix u-section-1">
   <div class="u-clearfix u-sheet u-sheet-1">
     <div class="u-form u-login-control u-form-1">
-        <h5>Sign Up</h5>
         <form action="includes/signup.inc.php" method="post" class="u-clearfix u-form-custom-backend u-form-spacing-10 u-form-vertical u-inner-form" source="custom" name="form" style="padding: 10px;">
+          <div class="u-form-group u-form-name">
+            <h5>Sign Up</h5>
+          </div>
+
+          <div class="u-form-group u-form-name">
+            <?php
+                if (isset($_GET["error"])){
+                    if ($_GET["error"] == "emptyinput"){
+                        echo "<p class='alert'>Fill in all fields, try again!</p>";
+                    }
+
+                    if ($_GET["error"] == "invalidusersNickname"){
+                        echo "<p class='alert'>Choose a proper nickname, try again!</p>";
+                    }
+
+                    if ($_GET["error"] == "pwdnotmatch"){
+                        echo "<p class='alert'>Passwords do not match, try again!</p>";
+                    }
+
+                    if ($_GET["error"] == "usernametaken"){
+                        echo "<p class='alert'>Too bad, username already taken, choose something else!</p>";
+                    }
+
+                    if ($_GET["error"] == "UsersNickname"){
+                        echo "<p class='alert'>Too bad, nickname already taken, choose something else!</p>";
+                    }
+
+                    if ($_GET["error"] == "stmtfailed"){
+                        echo "<p class='alert'>Oops, something is wrong. Try again or contact admin</p>";
+                    }
+
+                    if ($_GET["error"] == "noerror"){
+                        echo "<p class='alert'>Congradulations!</p>";
+                    }
+                }
+            ?>
+          </div>
+
           <div class="u-form-group u-form-name">
             <label class="u-label">Username *</label>
             <input type="text" name="username" placeholder="Enter your username" class="u-border-grey-30 u-input u-input-rectangle u-input-1" required="">
@@ -41,39 +78,6 @@
       </form>
     </div>
   </div>
-
-
-    <?php
-        if (isset($_GET["error"])){
-            if ($_GET["error"] == "emptyinput"){
-                echo "<P>Fill in all fields, try again!</P>";
-            }
-
-            if ($_GET["error"] == "invalidusersNickname"){
-                echo "<P>Choose a proper nickname, try again!</P>";
-            }
-
-            if ($_GET["error"] == "pwdnotmatch"){
-                echo "<P>Passwords do not match, try again!</P>";
-            }
-
-            if ($_GET["error"] == "usernametaken"){
-                echo "<P>Too bad, username already taken, choose something else!</P>";
-            }
-
-            if ($_GET["error"] == "UsersNickname"){
-                echo "<P>Too bad, nickname already taken, choose something else!</P>";
-            }
-
-            if ($_GET["error"] == "stmtfailed"){
-                echo "<P>Oops, something is wrong. Try again or contact admin</P>";
-            }
-
-            if ($_GET["error"] == "noerror"){
-                echo "<P>Congradulations!</P>";
-            }
-        }
-    ?>
 </section>
 
 

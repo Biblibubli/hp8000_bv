@@ -37748,6 +37748,19 @@ a.u-link.u-text-hover-grey-90:hover {
         margin-top: 20px;
         margin-bottom: 20px;
         }
+        h2.form_title
+        {
+        font-size: 1.5rem;
+        line-height: 1.2;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        list-icon-spacing: 0.3;
+        list-icon-size: 0.8;
+        font-family: Montserrat,sans-serif;
+        }
         /** common-rules **/
 
         /** publish-rules **/
@@ -37913,6 +37926,10 @@ a.u-link.u-text-hover-grey-90:hover {
         background-color: #8db8e0;
         color: #ffffff;
         }
+        p.alert
+        {
+          color: #8e1600;
+        }
         /** alt-color-rules **/
 
 
@@ -37927,9 +37944,9 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-image-1 {
-  width: 133px;
+  width: 200px;
   height: 67px;
-  margin: 7px auto 0 11px;
+  margin: 0px auto 0 11px;
 }
 
 .u-header .u-logo-image-1 {
@@ -37953,7 +37970,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 1199px) {
   .u-header .u-image-1 {
-    margin-left: 11px;
+    margin-left: 0px;
   }
 
   .u-header .u-menu-1 {
