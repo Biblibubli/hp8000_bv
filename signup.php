@@ -48,7 +48,7 @@
                     }
 
                     if ($_GET["error"] == "noerror"){
-                        echo "<p class='alert'>Congradulations!</p>";
+                        echo "<p>Congradulations, you have signed up successfully!</p>";
                     }
                 }
             ?>
