@@ -45,9 +45,14 @@
             <div class="u-align-center u-container-style u-layout-cell u-size-60 u-white u-layout-cell-3">
               <div class="u-container-layout u-container-layout-3">
                 <span class="u-file-icon u-grey-15 u-icon u-icon-circle u-icon-1"><img src="images/icon_volleyball.png" alt=""></span>
-                <h5 class="u-custom-font u-font-montserrat u-text u-text-1">Events</h5>
-                <p class="u-text u-text-grey-75 u-text-2">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-                <a href="games.php" class="u-active-none u-align-center u-border-1 u-border-active-grey-60 u-border-black u-border-hover-grey-60 u-btn u-button-style u-hover-none u-none u-text-body-color u-btn-1">more</a>
+                <h5 class="u-custom-font u-font-montserrat u-text u-text-1">CCBVA一周年排球黄金赛</h5>
+                <p class="u-text u-text-grey-75 u-text-2">
+                  
+                  CCBVA在2021年9月26日开始了第一次活动，让我们用比赛的形式一起庆祝CCBVA的一周岁生日吧！<br>
+                  比赛时间：2022年9月24日， 周六，上午9:00<br>
+                  比赛地点：PDR (Playa Del Rey Beach)
+                </p>
+                <a href="games.php" class="u-active-none u-align-center u-border-1 u-border-active-grey-60 u-border-black u-border-hover-grey-60 u-btn u-button-style u-hover-none u-none u-text-body-color u-btn-1">去报名</a>
               </div>
             </div>
           </div>
