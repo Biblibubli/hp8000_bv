@@ -4,8 +4,7 @@
     include_once 'header.php'
 ?>
 
-<<<<<<< HEAD
-=======
+
 <link rel="stylesheet" href="css/home.css" media="screen">
 
 <?php
@@ -15,7 +14,7 @@
     }
 
 ?>
->>>>>>> 4bdb63cededa24bc1405c21939323db5e558fbb7
+
 
 
 <section class="u-clearfix u-palette-5-dark-3 u-section-1" id="carousel_cdbd">
