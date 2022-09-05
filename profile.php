@@ -4,7 +4,7 @@
 
 <?php
     if (isset($_SESSION["userusername"])) {
-        echo "<h2>" . $_SESSION["usersnickname"] . "</h2>";
+        echo "<h2>Hello, " . $_SESSION["usersnickname"] . "</h2>";
 
     }
 

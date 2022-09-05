@@ -161,7 +161,7 @@ function loginUsers($conn, $username, $pwd) {
         $_SESSION["userusername"] = $usernameExist["usersUsername"];
         $_SESSION["usersnickname"] = $usernameExist["usersNickname"];
         
-        header("location: ../index.php");
+        header("location: ../profile.php");
         exit();
 
     }
