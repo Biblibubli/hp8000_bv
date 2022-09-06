@@ -6013,6 +6013,11 @@ section.u-image:not(.u-hover-box),
 .u-xxl-mode .u-sheet {
   width: var(--theme-sheet-width-xxl);
 }
+
+.center {
+  text-align: center;
+}
+
 @media (min-width: 1400px) {
   .u-sheet {
     width: var(--theme-sheet-width-xxl) !important;
