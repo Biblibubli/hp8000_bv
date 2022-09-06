@@ -144,119 +144,6 @@
   right: 0;
 }
 
-data-mode="XXL">@media (max-width: 0px) {
-.u-section-1 {
-background-image: none;
-}
-.u-section-1 .u-sheet-1 {
-min-height: 579px;
-}
-.u-section-1 .u-slider-1 {
-min-height: 480px;
-width: 763px;
-margin-top: 50px;
-margin-bottom: 50px;
-margin-left: auto;
-margin-right: auto;
-}
-.u-section-1 .u-carousel-indicators-1 {
-position: absolute;
-bottom: 10px;
-width: auto;
-height: auto;
-}
-.u-section-1 .u-container-layout-1 {
-padding-top: 30px;
-padding-bottom: 30px;
-padding-left: 80px;
-padding-right: 80px;
-}
-
-.u-section-1 .u-form_layout {
-  padding-left: 65px;
-  padding-right: 65px;
-}
-
-.u-block-65a6-18 {
-width: 83px;
-height: 83px;
-background-position: 50% 50%;
-margin-top: 0;
-margin-bottom: 0;
-margin-left: auto;
-margin-right: auto;
-}
-.u-section-1 .u-text-2 {
-margin-top: 20px;
-margin-left: 0;
-margin-right: 0;
-margin-bottom: 0;
-font-size: 1.25rem;
-}
-.u-block-65a6-16 {
-font-weight: 700;
-margin-top: 35px;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 0;
-}
-.u-block-65a6-17 {
-font-size: 1rem;
-font-weight: 400;
-margin-top: 15px;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 0;
-}
-.u-section-1 .u-container-layout-3 {
-padding-top: 30px;
-padding-bottom: 30px;
-padding-left: 80px;
-padding-right: 80px;
-}
-.u-section-1 .u-image-1 {
-width: 83px;
-height: 83px;
-margin-top: 0;
-margin-bottom: 0;
-margin-left: auto;
-margin-right: auto;
-}
-.u-section-1 .u-text-3 {
-margin-top: 20px;
-margin-left: 0;
-margin-right: 0;
-margin-bottom: 0;
-font-size: 1.25rem;
-}
-.u-section-1 .u-text-4 {
-font-weight: 700;
-margin-top: 35px;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 0;
-}
-.u-section-1 .u-text-5 {
-font-size: 1rem;
-font-weight: 400;
-margin-top: 15px;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 0;
-}
-.u-section-1 .u-carousel-control-1 {
-width: 43px;
-height: 43px;
-background-image: none;
-}
-.u-section-1 .u-carousel-control-2 {
-width: 43px;
-height: 43px;
-background-image: none;
-left: auto;
-position: absolute;
-right: 0;
-}
 
 @media (max-width: 1199px) {
   .u-section-1 .u-text-2 {
@@ -342,13 +229,13 @@ right: 0;
   .u-section-1 .u-slider-1 {
     min-height: 559px;
     width: auto;
-    margin-right: initial;
-    margin-left: initial;
+    margin-right: 10px;
+    margin-left: 10px;
   }
 
   .u-section-1 .u-container-layout-1 {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 
   .u-section-1 .u-text-1 {

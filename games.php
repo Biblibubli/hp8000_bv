@@ -83,9 +83,8 @@ if ($resultCheck > 0) {
               $resultCheck = mysqli_num_rows($result);
               if ($resultCheck > 0) {
                   while ($row = mysqli_fetch_assoc($result)) {
-                      echo '<a class="post_details">', $row[gameUserNickname], ' ';
+                      echo '<a class="post_details">', $row[gameUserNickname], '</a>';
                   };
-                  echo '</a>';
               };
               echo '</div>';
 
