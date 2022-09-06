@@ -19,9 +19,9 @@
 <link rel="stylesheet" href="css/games.css" media="screen">
 <body>
 
-  <section class="u-align-center u-clearfix u-white u-section-1" id="sec-f5a4">
+  <section class="u-align-center u-clearfix u-white u-section-1">
     <div class="u-clearfix u-sheet u-sheet-1">
-      <div id="carousel-5989" data-interval="5000" data-u-ride="carousel" class="u-carousel u-expanded-width-sm u-expanded-width-xs u-slider u-slider-1">
+      <div id="carousel-5989" data-interval="6000" data-u-ride="false" class="u-carousel u-expanded-width-sm u-expanded-width-xs u-slider u-slider-1">
         <ol class="u-absolute-hcenter u-carousel-indicators u-carousel-indicators-1">
           <li data-u-target="#carousel-5989" class="u-active u-grey-30 u-shape-circle" data-u-slide-to="0" style="width: 10px; height: 10px;"></li>
           <li data-u-target="#carousel-5989" class="u-grey-30 u-shape-circle" data-u-slide-to="1" style="width: 10px; height: 10px;"></li>
